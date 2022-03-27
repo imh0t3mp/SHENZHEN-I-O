@@ -1,0 +1,60 @@
+[name] try to sortcut power
+[puzzle] Sz005
+[production-cost] 600
+[power-usage] 361
+[lines-of-code] 8
+
+[traces] 
+......................
+......................
+......................
+......................
+......................
+......................
+.....154.14...1C......
+.....154.......A......
+....1554.15554.A......
+...............354....
+......................
+......................
+......................
+......................
+
+[chip] 
+[type] UC6
+[x] 7
+[y] 5
+[code] 
+  teq p1 x0
++ mov 5 dat
+  teq p1 x1
++ mov 0 dat
+  mov p0 acc
+- mul dat
+  mov acc x2
+  slp 1
+
+[chip] 
+[type] DX3
+[x] 13
+[y] 5
+
+[chip] 
+[type] DIAL2
+[x] 4
+[y] 6
+[is-puzzle-provided] true
+
+[chip] 
+[type] RTC
+[x] 10
+[y] 6
+[rotated] true
+[is-puzzle-provided] true
+
+[chip] 
+[type] DIAL1
+[x] 4
+[y] 7
+[is-puzzle-provided] true
+
