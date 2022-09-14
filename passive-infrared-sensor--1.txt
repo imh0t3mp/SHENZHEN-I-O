@@ -51,7 +51,6 @@
 - mul 0
   mov acc x2
   slp 1
-  
 
 [chip] 
 [type] DIAL2
